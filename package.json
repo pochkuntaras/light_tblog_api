@@ -1,0 +1,24 @@
+{
+  "name": "light_tblog_api",
+  "version": "1.0.0",
+  "description": "Light TBlog API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pochkuntaras/light_tblog_api.git"
+  },
+  "author": "Taras Pochkun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pochkuntaras/light_tblog_api/issues"
+  },
+  "homepage": "https://github.com/pochkuntaras/light_tblog_api#readme",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "lodash": "^4.17.4"
+  }
+}

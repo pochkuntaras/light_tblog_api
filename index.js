@@ -18,7 +18,7 @@ application.get('/posts/:id', function(req, res) {
 
   console.log('GET: /post/' + id);
 
-  res.json({ post: post });
+  res.json({ post });
 });
 
 application.listen(3004, function() {
